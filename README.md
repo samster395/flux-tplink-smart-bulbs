@@ -7,6 +7,7 @@ Uses Konsumer's [tplink-lightbulb API](https://github.com/konsumer/tplink-lightb
 First you will need to set the bulbs IP address in the server.js, You can find this using your router or the scan command on Konsumer's tplink-lightbulb API.
 
 You then need to run the server.js using``` node server.js ```and go to f.lux options and set the post to this url setting in the connected lighting section to http://localhost:8080
+This could probably run off a separate computer like a Raspberry PI too.
 
 Seen here:
 ![screenshot](screenshot.png)
